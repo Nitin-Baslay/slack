@@ -1,0 +1,115 @@
+.homediv {
+  width: 81vw;
+  float: right;
+  height: 94vh;
+}
+.chatMain {
+  position: absolute;
+  bottom: 0%;
+  margin-left: 200px;
+}
+.chat {
+  width: 70vw;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+  border-bottom: 5px solid black;
+}
+/* .containerMaster{
+  width: 80vw;
+  margin: auto;
+} */
+.sendbtn {
+  padding: 15px;
+  border-radius: 10px;
+  margin-left: 20px;
+  border: none;
+  background-color: #644565;
+  color: white;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+.container {
+  border-bottom: 3px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  width: 60;
+  margin: auto;
+}
+.hello {
+  height: 75vh;
+  overflow-y: auto;
+  /* background-color: blue; */
+}
+.user {
+  margin-left: 20px;
+}
+.delete {
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #644565;
+  color: white;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+.data {
+  font-size: 15px;
+}
+@media screen and (max-width: 3000px) {
+  .chat {
+    width: 60vw;
+  }
+}
+@media screen and (max-width: 2000px) {
+  .chat {
+    width: 50vw;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .chat {
+    width: 30vw;
+  }
+  .homediv {
+    width: 70vw;
+  }
+  .chatMain {
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 670px) {
+  nav h1 {
+    background-color: green;
+    font-size: 8px;
+  }
+  .homediv {
+    width: 50vw;
+  }
+  .container {
+    width: 50vw;
+  }
+  .chatMain {
+    margin-left: -10px;
+    margin-top: 640px;
+  }
+  .chat {
+    width: 20vw;
+  }
+}
+@media screen and (max-width: 400px) {
+  .homediv {
+    width: 50vw;
+  }
+}
+@media screen and (max-width: 350px) {
+  .chat {
+    width: 40vw;
+  }
+  .chatMain {
+    margin-top: 610px;
+  }
+}

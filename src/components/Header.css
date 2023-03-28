@@ -1,0 +1,15 @@
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head h1 {
+  margin-left: 15px;
+  font-size: 150px;
+}
+@media screen and (max-width: 500px) {
+  .head h1 {
+    margin-left: 5px;
+    font-size: 90px;
+  }
+}
