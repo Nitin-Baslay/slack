@@ -5,7 +5,7 @@
 }
 .head h1 {
   margin-left: 15px;
-  font-size: 150px;
+  font-size: 130px;
 }
 @media screen and (max-width: 500px) {
   .head h1 {
