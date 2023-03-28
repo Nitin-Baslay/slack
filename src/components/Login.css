@@ -39,4 +39,8 @@
   .master {
     width: 100vw;
   }
+  .inp1,
+  .inp2 {
+    width: 280px;
+  }
 }
