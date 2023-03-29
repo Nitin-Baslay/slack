@@ -1,0 +1,46 @@
+.master {
+  width: 40vw;
+  height: 50vh;
+  margin: auto;
+  display: block;
+  border-radius: 20px;
+  background-color: lightcyan;
+  box-shadow: 5px 5px 10px;
+}
+.inp1,
+.inp2 {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-bottom: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 40px;
+}
+.login {
+  margin-top: 30px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bolder;
+  font-size: 20px;
+  background-color: aqua;
+  color: white;
+}
+.texted {
+  align-items: center;
+}
+@media screen and (max-width: 820px) {
+  .master {
+    width: 80vw;
+  }
+}
+@media screen and (max-width: 430px) {
+  .master {
+    width: 100vw;
+  }
+  .inp1,
+  .inp2 {
+    width: 280px;
+  }
+}

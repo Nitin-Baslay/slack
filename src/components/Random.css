@@ -1,0 +1,192 @@
+.random {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ricon {
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-right: 15px;
+  display: flex;
+}
+.randomi {
+  font-size: 40px;
+  margin: 0 5px;
+}
+.book {
+  text-align: start;
+}
+.emoji {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* margin-top: 200px; */
+}
+.text {
+  text-align: start;
+  margin-left: 20px;
+}
+.smile {
+  margin-left: 10px;
+  font-size: 40px;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 10px;
+  background: #f4ede4;
+}
+.add {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.out {
+  margin-left: 90px;
+}
+.user {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.time {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.timed {
+  margin-left: 10px;
+}
+.joined {
+  margin-top: -20px;
+  margin-left: 5px;
+}
+/* .chatMain.rando {
+  margin-left: 300px;
+} */
+.date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 200px;
+  border-radius: 20px;
+  margin: auto;
+  gap: 10px;
+  height: 30px;
+}
+.randomContainer {
+  overflow-y: auto;
+  height: 465px;
+  margin: auto;
+}
+.randomData {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid black;
+  border-radius: 10px;
+}
+
+.randomtopp {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 20px;
+  margin-bottom: -30px;
+}
+.delicon {
+  width: 20px;
+  height: 20px;
+}
+.randomdelete {
+  border: none;
+  background-color: white;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.randomdelete:active {
+  background-color: white;
+  border-bottom: 2px solid black;
+  border-radius: 40px;
+}
+.user {
+  margin-left: 20px;
+}
+.chatMain {
+  position: absolute;
+  bottom: 0%;
+  /* width: 80vw;
+  margin: 0 auto; */
+  /* margin-left: 200px; */
+}
+.chat {
+  width: 70vw;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+  border-bottom: 5px solid black;
+}
+.sendbtn {
+  padding: 15px;
+  border-radius: 10px;
+  margin-left: 20px;
+  border: none;
+  background-color: #644565;
+  color: white;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+@media screen and (max-width: 3000px) {
+  .chat {
+    width: 60vw;
+  }
+  .chatMain{
+    margin-left: 600px;
+  }
+}
+@media screen and (max-width: 2000px) {
+  .chat {
+    width: 50vw;
+  }
+  .chatMain{
+    margin-left: 500px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .chat {
+    width: 30vw;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .chatMain{
+    margin-left: 400px;
+  }
+}
+@media screen and (max-width: 790px) {
+  .chat {
+    width: 20vw;
+  }
+  .chatMain{
+    margin-left: 350px;
+  }
+}
+@media screen and (max-width: 677px) {
+  .renderdata{
+    width: 50vw;
+    margin: auto;
+  }
+  .chatMain{
+    margin-left: 350px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .chatMain{
+    margin-left: 250px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .homediv{
+   
+    margin-right: -70px;
+  }
+}
